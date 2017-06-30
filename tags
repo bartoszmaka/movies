@@ -1,0 +1,19 @@
+Application	/home/bartosz/projekty/recruitment-exercises/exercises/movies/config/application.rb	/^  class Application < Rails::Application$/;"	c	language:Ruby	module:Movies
+ApplicationCable	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m	language:Ruby
+ApplicationCable	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m	language:Ruby
+ApplicationController	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c	language:Ruby
+ApplicationHelper	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m	language:Ruby
+ApplicationJob	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c	language:Ruby
+ApplicationMailer	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c	language:Ruby
+ApplicationRecord	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c	language:Ruby
+Channel	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	language:Ruby	module:ApplicationCable
+Connection	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	language:Ruby	module:ApplicationCable
+Movies	/home/bartosz/projekty/recruitment-exercises/exercises/movies/config/application.rb	/^module Movies$/;"	m	language:Ruby
+The change you wanted was rejected.	/home/bartosz/projekty/recruitment-exercises/exercises/movies/public/422.html	/^      <h1>The change you wanted was rejected.<\/h1>$/;"	h	language:HTML
+The page you were looking for doesn't exist.	/home/bartosz/projekty/recruitment-exercises/exercises/movies/public/404.html	/^      <h1>The page you were looking for doesn't exist.<\/h1>$/;"	h	language:HTML
+We're sorry, but something went wrong.	/home/bartosz/projekty/recruitment-exercises/exercises/movies/public/500.html	/^      <h1>We're sorry, but something went wrong.<\/h1>$/;"	h	language:HTML
+dependencies	/home/bartosz/projekty/recruitment-exercises/exercises/movies/package.json	/^  "dependencies": {}$/;"	o	language:JSON
+name	/home/bartosz/projekty/recruitment-exercises/exercises/movies/package.json	/^  "name": "movies",$/;"	s	language:JSON
+private	/home/bartosz/projekty/recruitment-exercises/exercises/movies/package.json	/^  "private": true,$/;"	b	language:JSON
+system!	/home/bartosz/projekty/recruitment-exercises/exercises/movies/bin/setup	/^def system!(*args)$/;"	f	language:Ruby
+system!	/home/bartosz/projekty/recruitment-exercises/exercises/movies/bin/update	/^def system!(*args)$/;"	f	language:Ruby
