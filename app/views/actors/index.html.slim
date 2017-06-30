@@ -1,0 +1,7 @@
+h2 ActorsPage
+ul
+  - @actors.each do |actor|
+    li => link_to actor.full_name, actor
+    ul
+      - actor.latest_movies.each do |movie|
+        li = movie.name

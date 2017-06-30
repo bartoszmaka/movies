@@ -1,0 +1,6 @@
+h2 MoviesPage
+ul
+  - @movies.each do |movie|
+    li => link_to movie.name, movie
+    ul
+      li => movie.genre.name
