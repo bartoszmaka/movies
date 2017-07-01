@@ -1,19 +1,95 @@
-Application	/home/bartosz/projekty/recruitment-exercises/exercises/movies/config/application.rb	/^  class Application < Rails::Application$/;"	c	language:Ruby	module:Movies
-ApplicationCable	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m	language:Ruby
-ApplicationCable	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m	language:Ruby
-ApplicationController	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c	language:Ruby
-ApplicationHelper	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m	language:Ruby
-ApplicationJob	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c	language:Ruby
-ApplicationMailer	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c	language:Ruby
-ApplicationRecord	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c	language:Ruby
-Channel	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	language:Ruby	module:ApplicationCable
-Connection	/home/bartosz/projekty/recruitment-exercises/exercises/movies/app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	language:Ruby	module:ApplicationCable
-Movies	/home/bartosz/projekty/recruitment-exercises/exercises/movies/config/application.rb	/^module Movies$/;"	m	language:Ruby
-The change you wanted was rejected.	/home/bartosz/projekty/recruitment-exercises/exercises/movies/public/422.html	/^      <h1>The change you wanted was rejected.<\/h1>$/;"	h	language:HTML
-The page you were looking for doesn't exist.	/home/bartosz/projekty/recruitment-exercises/exercises/movies/public/404.html	/^      <h1>The page you were looking for doesn't exist.<\/h1>$/;"	h	language:HTML
-We're sorry, but something went wrong.	/home/bartosz/projekty/recruitment-exercises/exercises/movies/public/500.html	/^      <h1>We're sorry, but something went wrong.<\/h1>$/;"	h	language:HTML
-dependencies	/home/bartosz/projekty/recruitment-exercises/exercises/movies/package.json	/^  "dependencies": {}$/;"	o	language:JSON
-name	/home/bartosz/projekty/recruitment-exercises/exercises/movies/package.json	/^  "name": "movies",$/;"	s	language:JSON
-private	/home/bartosz/projekty/recruitment-exercises/exercises/movies/package.json	/^  "private": true,$/;"	b	language:JSON
-system!	/home/bartosz/projekty/recruitment-exercises/exercises/movies/bin/setup	/^def system!(*args)$/;"	f	language:Ruby
-system!	/home/bartosz/projekty/recruitment-exercises/exercises/movies/bin/update	/^def system!(*args)$/;"	f	language:Ruby
+#full_name	/home/bartosz/projekty/movies/spec/models/actor_spec.rb	/^  describe '#full_name' do$/;"	d	language:RSpec
+Actor	/home/bartosz/projekty/movies/app/models/actor.rb	/^class Actor < ApplicationRecord$/;"	c	language:Ruby
+Actor, type: :model	/home/bartosz/projekty/movies/spec/models/actor_spec.rb	/^RSpec.describe Actor, type: :model do$/;"	d	language:RSpec
+ActorMovie	/home/bartosz/projekty/movies/app/models/actor_movie.rb	/^class ActorMovie < ApplicationRecord$/;"	c	language:Ruby
+ActorsController	/home/bartosz/projekty/movies/app/controllers/actors_controller.rb	/^class ActorsController < ApplicationController$/;"	c	language:Ruby
+ActorsController, type: :controller	/home/bartosz/projekty/movies/spec/controllers/actors_controller_spec.rb	/^RSpec.describe ActorsController, type: :controller do$/;"	d	language:RSpec
+Application	/home/bartosz/projekty/movies/config/application.rb	/^  class Application < Rails::Application$/;"	c	language:Ruby	module:Movies
+ApplicationCable	/home/bartosz/projekty/movies/app/channels/application_cable/channel.rb	/^module ApplicationCable$/;"	m	language:Ruby
+ApplicationCable	/home/bartosz/projekty/movies/app/channels/application_cable/connection.rb	/^module ApplicationCable$/;"	m	language:Ruby
+ApplicationController	/home/bartosz/projekty/movies/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c	language:Ruby
+ApplicationHelper	/home/bartosz/projekty/movies/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m	language:Ruby
+ApplicationJob	/home/bartosz/projekty/movies/app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c	language:Ruby
+ApplicationMailer	/home/bartosz/projekty/movies/app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c	language:Ruby
+ApplicationRecord	/home/bartosz/projekty/movies/app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c	language:Ruby
+Channel	/home/bartosz/projekty/movies/app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	language:Ruby	module:ApplicationCable
+Connection	/home/bartosz/projekty/movies/app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	language:Ruby	module:ApplicationCable
+CreateTables	/home/bartosz/projekty/movies/db/migrate/20170630155805_create_tables.rb	/^class CreateTables < ActiveRecord::Migration[5.1]$/;"	c	language:Ruby
+DELETE #destoy	/home/bartosz/projekty/movies/spec/controllers/actors_controller_spec.rb	/^  describe 'DELETE #destoy' do$/;"	d	language:RSpec
+DELETE #destoy	/home/bartosz/projekty/movies/spec/controllers/genres_controller_spec.rb	/^  describe 'DELETE #destoy' do$/;"	d	language:RSpec
+DELETE #destoy	/home/bartosz/projekty/movies/spec/controllers/movies_controller_spec.rb	/^  describe 'DELETE #destoy' do$/;"	d	language:RSpec
+GET #edit	/home/bartosz/projekty/movies/spec/controllers/actors_controller_spec.rb	/^  describe 'GET #edit' do$/;"	d	language:RSpec
+GET #edit	/home/bartosz/projekty/movies/spec/controllers/genres_controller_spec.rb	/^  describe 'GET #edit' do$/;"	d	language:RSpec
+GET #edit	/home/bartosz/projekty/movies/spec/controllers/movies_controller_spec.rb	/^  describe 'GET #edit' do$/;"	d	language:RSpec
+GET #index	/home/bartosz/projekty/movies/spec/controllers/actors_controller_spec.rb	/^  describe 'GET #index' do$/;"	d	language:RSpec
+GET #index	/home/bartosz/projekty/movies/spec/controllers/genres_controller_spec.rb	/^  describe 'GET #index' do$/;"	d	language:RSpec
+GET #index	/home/bartosz/projekty/movies/spec/controllers/movies_controller_spec.rb	/^  describe 'GET #index' do$/;"	d	language:RSpec
+GET #new	/home/bartosz/projekty/movies/spec/controllers/actors_controller_spec.rb	/^  describe 'GET #new' do$/;"	d	language:RSpec
+GET #new	/home/bartosz/projekty/movies/spec/controllers/genres_controller_spec.rb	/^  describe 'GET #new' do$/;"	d	language:RSpec
+GET #new	/home/bartosz/projekty/movies/spec/controllers/movies_controller_spec.rb	/^  describe 'GET #new' do$/;"	d	language:RSpec
+GET #show	/home/bartosz/projekty/movies/spec/controllers/actors_controller_spec.rb	/^  describe 'GET #show' do$/;"	d	language:RSpec
+GET #show	/home/bartosz/projekty/movies/spec/controllers/genres_controller_spec.rb	/^  describe 'GET #show' do$/;"	d	language:RSpec
+GET #show	/home/bartosz/projekty/movies/spec/controllers/movies_controller_spec.rb	/^  describe 'GET #show' do$/;"	d	language:RSpec
+Genre	/home/bartosz/projekty/movies/app/models/genre.rb	/^class Genre < ApplicationRecord$/;"	c	language:Ruby
+Genre, type: :model	/home/bartosz/projekty/movies/spec/models/genre_spec.rb	/^RSpec.describe Genre, type: :model do$/;"	d	language:RSpec
+GenresController	/home/bartosz/projekty/movies/app/controllers/genres_controller.rb	/^class GenresController < ApplicationController$/;"	c	language:Ruby
+GenresController, type: :controller	/home/bartosz/projekty/movies/spec/controllers/genres_controller_spec.rb	/^RSpec.describe GenresController, type: :controller do$/;"	d	language:RSpec
+Movie	/home/bartosz/projekty/movies/app/models/movie.rb	/^class Movie < ApplicationRecord$/;"	c	language:Ruby
+Movie, type: :model	/home/bartosz/projekty/movies/spec/models/movie_spec.rb	/^RSpec.describe Movie, type: :model do$/;"	d	language:RSpec
+Movies	/home/bartosz/projekty/movies/config/application.rb	/^module Movies$/;"	m	language:Ruby
+MoviesController	/home/bartosz/projekty/movies/app/controllers/movies_controller.rb	/^class MoviesController < ApplicationController$/;"	c	language:Ruby
+MoviesController, type: :controller	/home/bartosz/projekty/movies/spec/controllers/movies_controller_spec.rb	/^RSpec.describe MoviesController, type: :controller do$/;"	d	language:RSpec
+PATCH #update	/home/bartosz/projekty/movies/spec/controllers/actors_controller_spec.rb	/^  describe 'PATCH #update' do$/;"	d	language:RSpec
+PATCH #update	/home/bartosz/projekty/movies/spec/controllers/genres_controller_spec.rb	/^  describe 'PATCH #update' do$/;"	d	language:RSpec
+PATCH #update	/home/bartosz/projekty/movies/spec/controllers/movies_controller_spec.rb	/^  describe 'PATCH #update' do$/;"	d	language:RSpec
+POST #create	/home/bartosz/projekty/movies/spec/controllers/actors_controller_spec.rb	/^  describe 'POST #create' do$/;"	d	language:RSpec
+POST #create	/home/bartosz/projekty/movies/spec/controllers/genres_controller_spec.rb	/^  describe 'POST #create' do$/;"	d	language:RSpec
+POST #create	/home/bartosz/projekty/movies/spec/controllers/movies_controller_spec.rb	/^  describe 'POST #create' do$/;"	d	language:RSpec
+StatisticsController	/home/bartosz/projekty/movies/app/controllers/statistics_controller.rb	/^class StatisticsController < ApplicationController$/;"	c	language:Ruby
+The change you wanted was rejected.	/home/bartosz/projekty/movies/public/422.html	/^      <h1>The change you wanted was rejected.<\/h1>$/;"	h	language:HTML
+The page you were looking for doesn't exist.	/home/bartosz/projekty/movies/public/404.html	/^      <h1>The page you were looking for doesn't exist.<\/h1>$/;"	h	language:HTML
+We're sorry, but something went wrong.	/home/bartosz/projekty/movies/public/500.html	/^      <h1>We're sorry, but something went wrong.<\/h1>$/;"	h	language:HTML
+actor_params	/home/bartosz/projekty/movies/app/controllers/actors_controller.rb	/^  def actor_params$/;"	f	language:Ruby	class:ActorsController
+associations	/home/bartosz/projekty/movies/spec/models/actor_spec.rb	/^  describe 'associations' do$/;"	d	language:RSpec
+associations	/home/bartosz/projekty/movies/spec/models/genre_spec.rb	/^  describe 'associations' do$/;"	d	language:RSpec
+associations	/home/bartosz/projekty/movies/spec/models/movie_spec.rb	/^  describe 'associations' do$/;"	d	language:RSpec
+change	/home/bartosz/projekty/movies/db/migrate/20170630155805_create_tables.rb	/^  def change$/;"	f	language:Ruby	class:CreateTables
+create	/home/bartosz/projekty/movies/app/controllers/actors_controller.rb	/^  def create$/;"	f	language:Ruby	class:ActorsController
+create	/home/bartosz/projekty/movies/app/controllers/genres_controller.rb	/^  def create$/;"	f	language:Ruby	class:GenresController
+create	/home/bartosz/projekty/movies/app/controllers/movies_controller.rb	/^  def create$/;"	f	language:Ruby	class:MoviesController
+dependencies	/home/bartosz/projekty/movies/package.json	/^  "dependencies": {}$/;"	o	language:JSON
+destroy	/home/bartosz/projekty/movies/app/controllers/actors_controller.rb	/^  def destroy$/;"	f	language:Ruby	class:ActorsController
+destroy	/home/bartosz/projekty/movies/app/controllers/genres_controller.rb	/^  def destroy$/;"	f	language:Ruby	class:GenresController
+destroy	/home/bartosz/projekty/movies/app/controllers/movies_controller.rb	/^  def destroy$/;"	f	language:Ruby	class:MoviesController
+edit	/home/bartosz/projekty/movies/app/controllers/actors_controller.rb	/^  def edit$/;"	f	language:Ruby	class:ActorsController
+edit	/home/bartosz/projekty/movies/app/controllers/genres_controller.rb	/^  def edit$/;"	f	language:Ruby	class:GenresController
+edit	/home/bartosz/projekty/movies/app/controllers/movies_controller.rb	/^  def edit$/;"	f	language:Ruby	class:MoviesController
+full_name	/home/bartosz/projekty/movies/app/models/actor.rb	/^  def full_name$/;"	f	language:Ruby	class:Actor
+genre_name	/home/bartosz/projekty/movies/app/models/movie.rb	/^  def genre_name$/;"	f	language:Ruby	class:Movie
+genre_name=	/home/bartosz/projekty/movies/app/models/movie.rb	/^  def genre_name=(value)$/;"	f	language:Ruby	class:Movie
+genre_params	/home/bartosz/projekty/movies/app/controllers/genres_controller.rb	/^  def genre_params$/;"	f	language:Ruby	class:GenresController
+index	/home/bartosz/projekty/movies/app/controllers/actors_controller.rb	/^  def index$/;"	f	language:Ruby	class:ActorsController
+index	/home/bartosz/projekty/movies/app/controllers/genres_controller.rb	/^  def index$/;"	f	language:Ruby	class:GenresController
+index	/home/bartosz/projekty/movies/app/controllers/movies_controller.rb	/^  def index$/;"	f	language:Ruby	class:MoviesController
+index	/home/bartosz/projekty/movies/app/controllers/statistics_controller.rb	/^  def index$/;"	f	language:Ruby	class:StatisticsController
+latest_movies	/home/bartosz/projekty/movies/app/models/actor.rb	/^  def latest_movies$/;"	f	language:Ruby	class:Actor
+movie_params	/home/bartosz/projekty/movies/app/controllers/movies_controller.rb	/^  def movie_params$/;"	f	language:Ruby	class:MoviesController
+name	/home/bartosz/projekty/movies/package.json	/^  "name": "movies",$/;"	s	language:JSON
+new	/home/bartosz/projekty/movies/app/controllers/actors_controller.rb	/^  def new$/;"	f	language:Ruby	class:ActorsController
+new	/home/bartosz/projekty/movies/app/controllers/genres_controller.rb	/^  def new$/;"	f	language:Ruby	class:GenresController
+new	/home/bartosz/projekty/movies/app/controllers/movies_controller.rb	/^  def new$/;"	f	language:Ruby	class:MoviesController
+private	/home/bartosz/projekty/movies/package.json	/^  "private": true,$/;"	b	language:JSON
+show	/home/bartosz/projekty/movies/app/controllers/actors_controller.rb	/^  def show$/;"	f	language:Ruby	class:ActorsController
+show	/home/bartosz/projekty/movies/app/controllers/genres_controller.rb	/^  def show$/;"	f	language:Ruby	class:GenresController
+show	/home/bartosz/projekty/movies/app/controllers/movies_controller.rb	/^  def show$/;"	f	language:Ruby	class:MoviesController
+system!	/home/bartosz/projekty/movies/bin/setup	/^def system!(*args)$/;"	f	language:Ruby
+system!	/home/bartosz/projekty/movies/bin/update	/^def system!(*args)$/;"	f	language:Ruby
+update	/home/bartosz/projekty/movies/app/controllers/actors_controller.rb	/^  def update$/;"	f	language:Ruby	class:ActorsController
+update	/home/bartosz/projekty/movies/app/controllers/genres_controller.rb	/^  def update$/;"	f	language:Ruby	class:GenresController
+update	/home/bartosz/projekty/movies/app/controllers/movies_controller.rb	/^  def update$/;"	f	language:Ruby	class:MoviesController
+when params are invalid	/home/bartosz/projekty/movies/spec/controllers/actors_controller_spec.rb	/^    context 'when params are invalid' do$/;"	c	language:RSpec
+when params are invalid	/home/bartosz/projekty/movies/spec/controllers/genres_controller_spec.rb	/^    context 'when params are invalid' do$/;"	c	language:RSpec
+when params are invalid	/home/bartosz/projekty/movies/spec/controllers/movies_controller_spec.rb	/^    context 'when params are invalid' do$/;"	c	language:RSpec
+when params are valid	/home/bartosz/projekty/movies/spec/controllers/actors_controller_spec.rb	/^    context 'when params are valid' do$/;"	c	language:RSpec
+when params are valid	/home/bartosz/projekty/movies/spec/controllers/genres_controller_spec.rb	/^    context 'when params are valid' do$/;"	c	language:RSpec
+when params are valid	/home/bartosz/projekty/movies/spec/controllers/movies_controller_spec.rb	/^    context 'when params are valid' do$/;"	c	language:RSpec
