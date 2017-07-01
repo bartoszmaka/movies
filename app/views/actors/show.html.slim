@@ -1,0 +1,11 @@
+h2 ActorPage
+= link_to 'Delete', actor_path(@actor), method: :delete
+= link_to 'Update', edit_actor_path(@actor)
+h3
+  | Name:
+  = @actor.full_name
+h3
+  | Movies:
+  ul
+  - @actor.movies do |movie|
+    li = link_to movie.name, movie

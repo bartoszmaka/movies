@@ -1,6 +1,10 @@
 h2 GenresPage
-ul
+= link_to 'New Genre', new_genre_path
+= render 'search_form'
+table
+  th = sort_link(@q, :name)
+  th = sort_link(@q, :movies_count)
   - @genres.each do |genre|
-    li
-      => link_to genre.name, genre
-      => genre.movies_count
+    tr
+      td => link_to genre.name, genre
+      td => genre.movies_count

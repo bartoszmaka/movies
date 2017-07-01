@@ -1,7 +1,12 @@
 h2 ActorsPage
-ul
+= link_to 'New Actor', new_actor_path
+= render 'search_form'
+table
+  th = sort_link(@q, :first_name)
+  th = sort_link(@q, :last_name)
+  th colspan=3 Movies played in
   - @actors.each do |actor|
-    li => link_to actor.full_name, actor
-    ul
+    tr
+      td colspan=2 => link_to actor.full_name, actor
       - actor.latest_movies.each do |movie|
-        li = movie.name
+        td = link_to movie.name, movie

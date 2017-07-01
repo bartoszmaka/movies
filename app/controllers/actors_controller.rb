@@ -1,6 +1,7 @@
 class ActorsController < ApplicationController
   def index
-    @actors = Actor.all
+    @q = Actor.ransack(params[:q])
+    @actors = @q.result
   end
 
   def show
@@ -13,7 +14,7 @@ class ActorsController < ApplicationController
 
   def create
     @actor = Actor.new(actor_params)
-    if @actor.save?
+    if @actor.save
       redirect_to @actor
     else
       render 'new'
@@ -25,15 +26,15 @@ class ActorsController < ApplicationController
   end
 
   def update
-    @actor = Actor.update(params[:id], actor_params)
-    if
+    @actor = Actor.find(params[:id])
+    if @actor.update_attributes(actor_params)
       redirect_to @actor
     else
       render 'edit'
     end
   end
 
-  def delete
+  def destroy
     @actor = Actor.find(params[:id])
     @actor.destroy
     redirect_to actors_path

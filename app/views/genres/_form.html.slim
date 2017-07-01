@@ -1,0 +1,6 @@
+= render 'shared/basic_form_errors', resource: @genre
+= form_for @genre do |f|
+  br = f.label :name
+  = f.text_field :name
+
+  br = f.submit 'Commit'

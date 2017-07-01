@@ -1,0 +1,9 @@
+= render 'shared/basic_form_errors', resource: @actor
+= form_for @actor do |f|
+  br = f.label :first_name
+  = f.text_field :first_name
+
+  br = f.label :last_name
+  = f.text_field :last_name
+
+  br = f.submit 'Commit'

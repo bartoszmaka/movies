@@ -1,0 +1,10 @@
+h2 GenrePage
+= link_to 'Delete', genre_path(@genre), method: :delete
+= link_to 'Update', edit_genre_path(@genre)
+h3
+  | Name:
+  = @genre.name
+h3
+  | Movies:
+  - @genre.movies.each do |movie|
+    li = link_to movie.name, movie

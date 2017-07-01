@@ -1,1 +1,16 @@
 h2 StatisticsPage
+h3
+  | Most active actor:
+  => link_to @most_active_actor.full_name, @most_active_actor
+  | movies:
+  => @most_active_actor.movies_count
+h3
+  | Movie which generates the biggest revenue:
+  => link_to @biggest_revenue_movie.name, @biggest_revenue_movie
+  | revenue:
+  => @biggest_revenue_movie.revenue
+h3
+  | Most popular genre:
+  => link_to @most_popular_genre.name, @most_popular_genre
+  | movies:
+  => @most_popular_genre.movies_count

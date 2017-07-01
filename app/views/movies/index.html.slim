@@ -1,6 +1,10 @@
 h2 MoviesPage
-ul
+= link_to 'New Movie', new_movie_path
+= render 'search_form'
+table
+  th = sort_link(@q, :name)
+  th = sort_link(@q, :genre_name)
   - @movies.each do |movie|
-    li => link_to movie.name, movie
-    ul
-      li => movie.genre.name
+    tr
+      td => link_to movie.name, movie
+      td => movie.genre.name

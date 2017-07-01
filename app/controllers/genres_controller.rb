@@ -1,6 +1,7 @@
 class GenresController < ApplicationController
   def index
-    @genres = Genre.all
+    @q = Genre.ransack(params[:q])
+    @genres = @q.result
   end
 
   def show
@@ -13,7 +14,7 @@ class GenresController < ApplicationController
 
   def create
     @genre = Genre.new(genre_params)
-    if @genre.save?
+    if @genre.save
       redirect_to @genre
     else
       render 'new'
@@ -25,15 +26,15 @@ class GenresController < ApplicationController
   end
 
   def update
-    @genre = Genre.update(params[:id], genre_params)
-    if
+    @genre = Genre.find(params[:id])
+    if @genre.update_attributes(genre_params)
       redirect_to @genre
     else
       render 'edit'
     end
   end
 
-  def delete
+  def destroy
     @genre = Genre.find(params[:id])
     @genre.destroy
     redirect_to genres_path

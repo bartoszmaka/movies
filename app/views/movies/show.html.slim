@@ -1,0 +1,17 @@
+h2 MoviePage
+= link_to 'Delete', movie_path(@movie), method: :delete
+= link_to 'Update', edit_movie_path(@movie)
+h3
+  | Title:
+  = @movie.name
+h3
+  | Revenue:
+  = @movie.revenue
+h3
+  | Genre:
+  = @movie.genre.name
+h3
+  | Actors:
+  ul
+    - @movie.actors.each do |actor|
+      li = link_to actor.full_name, actor
