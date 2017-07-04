@@ -19,4 +19,19 @@ RSpec.describe Movie, type: :model do
       expect(movie.genre).to eq genre
     end
   end
+
+  describe 'validations' do
+    it 'requires presence revenue' do
+      movie = Movie.new(name: 'The RSpec', revenue: nil)
+
+      expect(movie.valid?).to be false
+    end
+
+    it 'requires name to be unique case insensitive' do
+      Movie.create(name: 'The RSpec', revenue: 123)
+      movie = Movie.new(name: 'THE RSPEC', revenue: 123)
+
+      expect(movie.valid?).to be false
+    end
+  end
 end
