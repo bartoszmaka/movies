@@ -4,5 +4,5 @@ class Genre < ApplicationRecord
   validates :name, presence: true,
                    uniqueness: { case_sensitive: false }
 
-  before_save { self.name.downcase! }
+  before_save { name.downcase! }
 end

@@ -8,7 +8,7 @@ class Movie < ApplicationRecord
                    uniqueness: { case_sensitive: false }
 
   def genre_name
-    genre.name unless genre.nil?
+    genre&.name
   end
 
   def genre_name=(value)
