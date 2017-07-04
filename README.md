@@ -1,24 +1,20 @@
-# README
+# MoviesDatabase
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Consider three models:
+1) Actor [first name, last name]
+2) Movie [name, revenue]
+3) Genre [name]
 
-Things you may want to cover:
+Tasks:
+ - think about relationships between each od the models (do not overcomplicate it, lets assume that movie has one genre).
+ - create CRUD for this 3 models -> addidtional information on index page:
+  * Actors - 3 movies they played in
+  * Movie - genre
+  * Genre - amout of films from this genre
+ - Sorting / filtering -> (https://github.com/activerecord-hackery/ransack)
+ - Stats page:
+  * Most active actor: xx
+  * Movie which generates the biggest revenue: xx
+  * Most popular genre: xx
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Test your solutions :)
